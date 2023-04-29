@@ -1,0 +1,93 @@
+@import './global.css';
+
+.card {
+  background-color: var(--card-color);
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.image-container {
+  width: 400px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 400px;
+}
+
+.content {
+  margin-top: 1rem;
+}
+
+.content > * {
+  margin-bottom: 1rem;
+}
+
+.content h2 {
+  color: white;
+}
+
+.content p {
+  color: var(--desc-color);
+  line-height: 1.5;
+}
+
+.price-and-duration {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-and-duration_price {
+  color: var(--price-color);
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
+.price-and-duration_duration {
+  color: var(--time-color);
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.price-and-duration_price span,
+.price-and-duration_duration span {
+  margin-left: 0.5rem;
+}
+
+hr {
+  height: 1px;
+  background-color: var(--time-color);
+  border: none;
+}
+.footer-card {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.footer-card img {
+  width: 40px;
+  border: 1px solid var(--time-color);
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.footer-card div span {
+  color: white;
+}
+
+.footer-card div span:first-child {
+  color: var(--time-color);
+  margin-right: 0.5rem;
+}
